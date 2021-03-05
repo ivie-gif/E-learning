@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(188, 231, 217);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; /* to create a space around the logo and list items*/
+    margin: 0 30px;
+}
+.list{
+    list-style-type: none;
+}
+.list li {
+    display: inline;
+    font-size: 1.1em;
+    margin: 10px ;
+}
+.list :nth-child(5){
+    border: 1px solid blue ;
+    padding: 5px 15px;
+    color: blue;
+}
