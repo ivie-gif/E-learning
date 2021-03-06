@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(188, 231, 217);
+    background-color: whitesmoke;
 }
 
 .nav {
@@ -14,6 +14,7 @@ body {
     display: inline;
     font-size: 1.1em;
     margin: 10px ;
+    color: purple;
 }
 .list :nth-child(5){
     border: 1px solid blue ;
@@ -32,30 +33,40 @@ body {
     margin-left: 10%;
 }
 .herosection-div h1 {
-    font-size: 50px;
+    font-size: 55px;
     width: 65%;
     margin-top: 0;
+    margin-bottom: 0;
 }
 .herosection-div p{
     width: 70%;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    color: rgb(11, 11, 146);
 }
 .herosection-img{
     width: 50%;
 }
 .image{
-    width: 90%; 
+    width: 95%; 
+    margin-left: -100px;
 }
 .hero-button{
     display: flex;
     margin-top: 7%;
 }
+.herobutton-style:hover{
+    background-color: purple;
+    color: black;
+}
 .herobutton-style{
-   background-color: blue;
-   color: white;
-   padding: 0 20px;
-   margin-right: 10px;
-   border: 5px;
-   border-width: 50%;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 15px 25px 15px 25px;
+    border: blue;
+    margin-right: 5%;
 }
 
 /* First session for card and icon */
@@ -64,7 +75,7 @@ body {
     margin: 10% 12% 5% 12%;
 }
 .card-icon-divs{
-    background-color: white;
+    background-color: rgb(252, 252, 252);
     margin-right: 1px;
     border-radius: 5px;
 }
@@ -80,5 +91,48 @@ body {
 .card-icons-h3{
     text-align: center;
     margin: 20px 30px 20px 30px;
-    color: rgb(17, 17, 77);
+    color: purple;
+}
+
+/* Join a Class/course section */
+.Join-a-course{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.join-class{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 0;
+}
+.join-class-text{
+    width: 50%;
+    margin-left: -80px;
+}
+.Join-Course{
+    width: 70%; 
+}
+.join-class-text h1{
+    font-size: 50px;
+    width: 65%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.join-course-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 15px 25px 15px 25px;
+    border: blue;
+    margin-top: 3%;
+}
+.join-class-text h3{
+    color: purple;
+}
+.join-class-text p{
+    color: rgb(36, 1, 36);
+    font-size: 1.2rem;
+    width: 90%;
 }
