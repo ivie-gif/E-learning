@@ -57,3 +57,28 @@ body {
    border: 5px;
    border-width: 50%;
 }
+
+/* First session for card and icon */
+.card-icon{
+    display: flex;
+    margin: 10% 12% 5% 12%;
+}
+.card-icon-divs{
+    background-color: white;
+    margin-right: 1px;
+    border-radius: 5px;
+}
+.card-img{
+    margin: 10% 0 0 30%;
+}
+.card-icons-p{
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+    line-height: 1.7em;
+    color: grey;
+}
+.card-icons-h3{
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+    color: rgb(17, 17, 77);
+}
