@@ -139,7 +139,7 @@ body {
 
 /* get-course section */
 .Get-a-course{
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .course-icons{
     display: flex;
@@ -171,6 +171,7 @@ display: flex;
     margin-right: 10px;
     font-size:40px;
     color: white;
+    border: none;
 }
 .courses-div{
     display: flex;
@@ -215,4 +216,46 @@ color: rgb(39, 39, 85);
     display: flex;
     margin-left: 35px;
     margin-top: -30px;
+}
+
+/* Our Student section */
+.ourstudent{
+    display: flex;
+    margin-top: 12%;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.ourstudent-text{
+    width: 50%;
+    margin-left: 7%;
+}
+.ourstudent-text h1{
+    font-size: 50px;
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ourstudent-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 15px 25px 15px 25px;
+    border: blue;
+    margin-top: 3%;
+}
+.ourstudent-text h3{
+    color: purple;
+}
+.ourstudent-text p{
+    color: rgb(54, 54, 136);
+    font-size: 1.2rem;
+    width: 90%;
+}
+.ourstudentdiv-img{
+    width: 50%;
+    margin-right: 5%;
+}
+.ourstudent-img{
+    width: 100%; 
 }
