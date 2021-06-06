@@ -16,10 +16,25 @@ body {
     margin: 10px ;
     color: purple;
 }
-.list :nth-child(5){
+.list :nth-child(4){
     border: 1px solid blue ;
     padding: 5px 15px;
     color: blue;
+    text-decoration: none;
+}
+.list :nth-child(4):hover{
+    background-color: blue;
+    color: white;
+}
+.list :nth-child(5){
+    border: 1px solid blue ;
+    padding: 5px 15px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+.list :nth-child(5):hover{
+    background-color: rgb(5, 5, 148);
 }
 
 /* Hero-section styling */
@@ -291,4 +306,54 @@ color: rgb(39, 39, 85);
     width: 30px;
     color: blue;
     background-color: rgb(218, 207, 207);
+}
+
+/* signup section */
+.signup-sect{
+margin-left: 15%;
+margin-right: 15%;
+background-color: rgb(236, 236, 241);
+border-radius: 5px;
+margin-top: 5%;
+height: 750px;
+}
+.login-sect{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(236, 236, 241);
+    border-radius: 5px;
+    margin-top: 5%;
+    height: 710px;
+    }
+.signup-flex{
+    display: flex;
+    margin: 7% 5%;
+    padding-top: 7%;
+}
+.signup-right{
+    background-color: rgb(110, 110, 197);
+    width: 50%;
+}
+.signup-left{
+    width: 50%;
+    background-color: white;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+.img-signup{
+    padding: 40% 40px 40px 40px;
+    width: 80%;
+}
+.signup-button{
+   background-color: rgb(110, 110, 197); 
+   border: none; 
+   width: 70%;
+   padding: 10px;
+   color: white;
+   border-radius: 5px;
+}
+.signup-form{
+    width: 69%;
+    border: 1px solid rgb(236, 230, 230);
+    height: 30px;
 }
