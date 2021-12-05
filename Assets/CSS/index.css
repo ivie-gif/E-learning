@@ -14,28 +14,26 @@ body {
     display: inline;
     font-size: 1.1em;
     margin: 10px ;
+}
+.list a {
+    text-decoration: none;
+}
+.login-nav{
+    border: 1px solid #4e66f8 ;
+    padding: 5px 15px;
     color: purple;
 }
-.list :nth-child(4){
-    border: 1px solid blue ;
-    padding: 5px 15px;
-    color: blue;
-    text-decoration: none;
+.login-nav:hover{
+    background-color: #4e66f8;
+    color: white;
+    
 }
-.list :nth-child(4):hover{
-    background-color: blue;
+.signup-nav{
+    padding: 5px 15px;
+    background-color: #4e66f8;
     color: white;
 }
-.list :nth-child(5){
-    border: 1px solid blue ;
-    padding: 5px 15px;
-    color: white;
-    background-color: blue;
-    text-decoration: none;
-}
-.list :nth-child(5):hover{
-    background-color: rgb(5, 5, 148);
-}
+
 
 /* Hero-section styling */
 .herosection {
@@ -75,12 +73,12 @@ body {
     color: black;
 }
 .herobutton-style{
-    background-color: blue;
+    background-color: #4e66f8;
     color: white;
     border-radius: 5px;
     font-size: 0.8rem;
     padding: 15px 25px 15px 25px;
-    border: blue;
+    border: #4e66f8;
     margin-right: 5%;
 }
 
@@ -135,12 +133,12 @@ body {
     margin-bottom: 0;
 }
 .join-course-btn{
-    background-color: blue;
+    background-color: #4e66f8;
     color: white;
     border-radius: 5px;
     font-size: 0.8rem;
     padding: 15px 25px 15px 25px;
-    border: blue;
+    border: #4e66f8;
     margin-top: 3%;
 }
 .join-class-text h3{
@@ -173,10 +171,10 @@ body {
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    border: 1px solid blue ;
+    border: 1px solid #4e66f8 ;
     margin-right: 10px;
     font-size:40px;
-    color: blue;
+    color: #4e66f8;
 }
 .right-icon{
     border-radius: 50%;
@@ -253,12 +251,12 @@ color: rgb(39, 39, 85);
     margin-bottom: 0;
 }
 .ourstudent-btn{
-    background-color: blue;
+    background-color: #4e66f8;
     color: white;
     border-radius: 5px;
     font-size: 0.8rem;
     padding: 15px 25px 15px 25px;
-    border: blue;
+    border: #4e66f8;
     margin-top: 3%;
 }
 .ourstudent-text h3{
@@ -304,7 +302,7 @@ color: rgb(39, 39, 85);
     border-radius: 50%;
     height: 30px;
     width: 30px;
-    color: blue;
+    color: #4e66f8;
     background-color: rgb(218, 207, 207);
 }
 
@@ -356,4 +354,44 @@ height: 750px;
     width: 69%;
     border: 1px solid rgb(236, 230, 230);
     height: 30px;
+}
+
+
+/* userDashboard styling */
+body {
+    /* background-color: #fff; */
+    background-color: #f8f9fa;
+  }
+  
+  .userHeader {
+    margin-top: 5%;
+    text-align: center;
+    font-size: larger;
+  }
+
+  .user-section {
+      background-color: white;
+      margin-top: 15%;
+  }
+
+  .Featured-courses {
+      display: flex;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+
+  .featuredcourse-img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.featuredcourse-cards{
+    margin-bottom: 5%;
+    margin-left:  25px;
+    width: 20%;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
 }
