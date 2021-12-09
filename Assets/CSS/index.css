@@ -72,15 +72,16 @@ body {
 .herobutton-style:hover{
     background-color: purple;
     color: black;
+    cursor: pointer;
 }
 .herobutton-style{
     background-color: #4e66f8;
     color: white;
     border-radius: 5px;
     font-size: 0.8rem;
-    padding: 15px 25px 15px 25px;
+    padding: 15px 20px;
     border: #4e66f8;
-    margin-right: 5%;
+    
 }
 
 /* First session for card and icon */
@@ -141,6 +142,7 @@ body {
     padding: 15px 25px 15px 25px;
     border: #4e66f8;
     margin-top: 3%;
+    cursor: pointer;
 }
 .join-class-text h3{
     color: purple;
@@ -259,6 +261,7 @@ color: rgb(39, 39, 85);
     padding: 15px 25px 15px 25px;
     border: #4e66f8;
     margin-top: 3%;
+    cursor: pointer;
 }
 .ourstudent-text h3{
     color: purple;
@@ -355,6 +358,7 @@ height: 750px;
     width: 69%;
     border: 1px solid rgb(236, 230, 230);
     height: 30px;
+    padding: 0px 3%;
 }
 
 
