@@ -10,42 +10,101 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
   </head>
   <body>
     <section class="login-sect">
       <div class="signup-flex">
         <div class="signup-left">
-         <h4 style="font-family: sans-serif;"><a href="/index.html" style="text-decoration: none;">
-            <i class="fa fa-graduation-cap" style="color: rgb(110, 110, 197); margin-top: 10%;"></i>
-             E-Learning
-          </a></h4>
-          <h1 style="font-size: 2.2rem; font-family: sans-serif;">Hi, Welcome Back!</h1>
-          <p style="margin-top: -25px; color: grey; font-family: sans-serif;">Start your Journey here.</p>
-          <button style="border: 1px solid blue; background-color: white; color: blue; margin-top: 7%;" class="signup-button">
-            <i class="fa fa-google"></i> Sign in with Google</button>
-          <p style="margin-left: 25%;">or</p>
+          <h4 style="font-family: sans-serif">
+            <a href="/index.html" style="text-decoration: none">
+              <i
+                class="fa fa-graduation-cap"
+                style="color: rgb(110, 110, 197); margin-top: 10%"
+              ></i>
+              E-Learning
+            </a>
+          </h4>
+          <h1 style="font-size: 2.2rem; font-family: sans-serif">
+            Hi, Welcome Back!
+          </h1>
+          <p style="margin-top: -25px; color: grey; font-family: sans-serif">
+            Start your Journey here.
+          </p>
+          <button
+            style="
+              border: 1px solid blue;
+              background-color: white;
+              color: blue;
+              margin-top: 7%;
+            "
+            class="signup-button"
+          >
+            <i class="fa fa-google"></i> Sign in with Google
+          </button>
+          <p style="margin-left: 25%">or</p>
 
-          <form >
-              <label for="lastName">Email</label><br>
-              <input type="email" name="email" id="email" value="" placeholder=" name@example.com" class="signup-form" /><br><br>
-              <label for="lastName">Password</label><br>
-              <input type="password" name="password" id="Password" value="" placeholder=" must be at least 8 characters" class="signup-form" /><br><br>
-              <p style="margin-top: -10px;">Forgot Password?</p>
-              <button type="submit" class="signup-button"> <a href="/dashboard.html" style="text-decoration: none; color: white;">
-                Login 
-              </a></button>
-              <p>Dont have an Account? <a href="/signup.html" style="text-decoration: none;">Signup</a></p>
+          <form method="post">
+            <p
+              id="allLoginFields"
+              style="color: red; margin-top: -12px; margin: 3% 0px 3% 12%"
+            ></p>
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder=" name@example.com"
+              onkeyup="loginErrorClearing()"
+              class="signup-form"
+            /><br /><br />
+            <p id="errorEmailLogin" style="color: red; margin-top: -12px"></p>
+            <label for="password" style="margin-bottom: 8px">Password</label
+            ><br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder=" must be at least 8 characters"
+              onkeyup="loginErrorClearing()"
+              class="signup-form"
+            /><br /><br />
+            <p
+              id="errorPasswordLogin"
+              style="color: red; margin-top: -12px"
+            ></p>
+            <p style="margin-top: -22px">Forgot Password?</p>
+            <button type="button" class="signup-button" id="loginSubmit">
+              Login
+            </button>
+            <p>
+              Dont have an Account?
+              <a href="/signup.html" style="text-decoration: none">Signup</a>
+            </p>
           </form>
         </div>
         <div class="signup-right">
-          <img src="./Assets/Image/JoinAnyCourse.JPG" alt="" class="img-signup">
-          <h5 style="text-align: center; color: white; font-family: sans-serif;">
-            Building Knowledge</h5>
-          <p style="text-align: center; color: white; font-family: sans-serif; margin-top: -15px; font-size: 0.8em;">
-            Start your journey to Knowledge with us!</p>
+          <img
+            src="./Assets/Image/JoinAnyCourse.JPG"
+            alt=""
+            class="img-signup"
+          />
+          <h5 style="text-align: center; color: white; font-family: sans-serif">
+            Building Knowledge
+          </h5>
+          <p
+            style="
+              text-align: center;
+              color: white;
+              font-family: sans-serif;
+              margin-top: -15px;
+              font-size: 0.8em;
+            "
+          >
+            Start your journey to Knowledge with us!
+          </p>
         </div>
       </div>
     </section>
+    <script src="./Assets/JS/loginForm.js"></script>
   </body>
 </html>
